@@ -27,7 +27,7 @@ class item{
 
     	var edit = document.createElement('button');
     	edit.classList.add('edit');
-    	edit.innerHTML = "EDIT";
+    	edit.innerHTML = "EDIT |";
     	edit.addEventListener('click', () => this.edit(input, name));
 
     	var remove = document.createElement('button');
@@ -85,4 +85,4 @@ for (var v = 0 ; v < todos.length ; v++){
 }
 
 
-new item("sport");
+// new item("sport");
